@@ -1,9 +1,9 @@
 # HeatmapJsExample
 Heatmap.Js 사용 예제
 
-회사 프로젝트 중 투구존에 공의 개수에 따른 색상 차등 표출 필요.
-자료 조사중 heatmapjs 라이브러리를 찾게 되었고,
-적용전 테스트 진행 예정.
+회사 프로젝트 중 투구존에 공의 개수에 따른 색상 차등 표출 필요.  
+자료 조사중 heatmapjs 라이브러리를 찾게 되었고,  
+적용전 테스트 진행 예정.  
 
 1. 설치 & 사용법 참고(heatmap.js github)
 - https://github.com/pa7/heatmap.js
