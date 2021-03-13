@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- heatmap -->
+    <script src="D:\개인프로젝트\HeatmapJsExample\Scripts\heatmap/heatmap.js" type="text/javascript"></script>
+    <script src="D:\개인프로젝트\HeatmapJsExample\Scripts\heatmap/heatmap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="heatmap" style="width:834px; height: 400px;">
+        <canvas class="heatmap-canvas" width="834" height="400"
+            style="position: absolute; left: 0px; top: 0px;"></canvas>
+    </div>
+</body>
+
+</html>
+
+
+<script language="javascript" type="text/javascript">
+    // minimal heatmap instance configuration
+    var heatmapInstance = h337.create({
+        // only container is required, the rest will be defaults
+        container: document.querySelector('.heatmap')
+    });
+
+    // now generate some random data
+    var points = [];
+    var max = 0;
+    var width = 840;
+    var height = 400;
+    var len = 200;
+
+    while (len--) {
+        var val = Math.floor(Math.random() * 100);
+        max = Math.max(max, val);
+        var point = {
+            x: Math.floor(Math.random() * width),
+            y: Math.floor(Math.random() * height),
+            value: val
+        };
+        points.push(point);
+    }
+    // heatmap data format
+    var data = {
+        max: max,
+        data: points
+    };
+    // if you have a set of datapoints always use setData instead of addData
+    // for data initialization
+    heatmapInstance.setData(data);
+</script>
