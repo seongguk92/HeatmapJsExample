@@ -15,4 +15,8 @@ Heatmap.Js 사용 예제
 3. 예제 사용 해보기
 > Minimal Configuration Example
 - https://www.patrick-wied.at/static/heatmapjs/example-minimal-config.html
+- 
+![image](https://user-images.githubusercontent.com/18062612/111023737-1324db80-841e-11eb-881b-3515447096c5.png
+
+
 ![image](https://user-images.githubusercontent.com/18062612/111023737-1324db80-841e-11eb-881b-3515447096c5.png
