@@ -13,10 +13,7 @@ Heatmap.Js 사용 예제
 - https://www.patrick-wied.at/static/heatmapjs/Cancel Changes
 
 3. 예제 사용 해보기
-> Minimal Configuration Example
-- https://www.patrick-wied.at/static/heatmapjs/example-minimal-config.html
-- 
-![image](https://user-images.githubusercontent.com/18062612/111023737-1324db80-841e-11eb-881b-3515447096c5.png
+- Minimal Configuration Example
+-- https://www.patrick-wied.at/static/heatmapjs/example-minimal-config.html
 
-
-![image](https://user-images.githubusercontent.com/18062612/111023737-1324db80-841e-11eb-881b-3515447096c5.png
+![image](https://user-images.githubusercontent.com/18062612/111023759-30f24080-841e-11eb-9c85-51aeaf305383.png)
