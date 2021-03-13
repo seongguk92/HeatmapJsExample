@@ -10,3 +10,9 @@ https://www.patrick-wied.at/static/heatmapjs/
 https://github.com/pa7/heatmap.js
 - heatmap.js github url
 - 설치 & 사용법
+
+
+
+
+1.https://www.patrick-wied.at/static/heatmapjs/example-minimal-config.html
+- Minimal Configuration Example
